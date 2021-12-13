@@ -10,6 +10,11 @@ menuconfig SAMPLES_RUST
 
 if SAMPLES_RUST
 
+config SAMPLE_RUST_HELLO
+	tristate "Hello"
+	help
+	  My first Module.
+
 config SAMPLE_RUST_MINIMAL
 	tristate "Minimal"
 	help
